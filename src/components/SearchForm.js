@@ -86,9 +86,9 @@ export const SearchForm = ({ addToDisplayList }) => {
           )}
           <hr />
         </div>
-        <div className="row">
-          <CustomCard shows={shows} handleOnClick={handleOnClick} />
-        </div>
+
+        {/* display custom card (shows) acc. to search  */}
+        <CustomCard shows={shows} handleOnClick={handleOnClick} />
       </div>
     </div>
   );

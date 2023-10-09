@@ -62,7 +62,7 @@ export const DisplayShows = ({ showList, displaybBtns, updateShowList }) => {
               </div>
 
               {displaybBtns.map((item, i) => (
-                <div className="col">
+                <div className="col" key={i}>
                   <button
                     key={i}
                     type="button"

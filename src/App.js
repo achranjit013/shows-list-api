@@ -9,7 +9,6 @@ function App() {
 
   // adding new data
   const addToDisplayList = (card) => {
-    console.log("card: " + card.show.id);
     // btns in display list to show according to their genres
     if (displaybBtns.length === 0) {
       // if there is nothing in the array list
@@ -41,7 +40,17 @@ function App() {
 
   // update the show list after deleting from display
   const updateShowList = (filteredList) => {
-    //set the show list with filtered list after delete
+    //set the buttons & show list with filtered list after delete
+
+    setDisplayBtns([]);
+    const btnArr = [];
+    const btns = filteredList.map((item, i) => {
+      item.show.genres.map((btn, index) => {
+        btnArr.push(btn);
+      });
+    });
+
+    setDisplayBtns([...new Set(btnArr)]);
     setShowList(filteredList);
   };
 
