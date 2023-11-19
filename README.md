@@ -23,7 +23,8 @@ This is a React-based web application that allows users to explore and manage th
 ## Introduction
 
 The TV Show List provides a user-friendly and feature-rich environment for discovering, managing, and enjoying favorite TV shows. With its intuitive search functionality, seamless favorite management, and genre-based filtering, the application delivers a personalized and organized entertainment experience tailored to each user's unique preferences. Whether exploring new shows or revisiting beloved classics, this application is designed to cater to the diverse tastes of TV enthusiasts.
-**You can try out the app by visiting the [TV Show List]([https://pig-game-qvjvfube7-ranjits-projects.vercel.app/](https://shows-list-api.vercel.app/)**
+
+You can try out the app by visiting the [TV Show List]([https://pig-game-qvjvfube7-ranjits-projects.vercel.app/](https://shows-list-api.vercel.app/)
 
 To get started, follow the installation and usage instructions below.
 
